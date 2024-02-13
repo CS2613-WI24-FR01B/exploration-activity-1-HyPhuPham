@@ -89,8 +89,8 @@ Definition: Is a cross-platform GUI toolkit, a set of Python bindings for Qt v5.
 
 - Initialize a function to do the activity when pressing the button
 
-    def process_clear(self):
-        self.input_field.setText("")
+            def process_clear(self):
+                self.input_field.setText("")
 
 - The function does the activity (clear all characters on the input box)
 
