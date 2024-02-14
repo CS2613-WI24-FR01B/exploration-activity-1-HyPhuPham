@@ -17,7 +17,7 @@ This program is a calculator application developed with the purpose is allowing 
 
 
 ## About the PyQt5 package
-Definition: Is a cross-platform GUI toolkit, a set of Python bindings for Qt v5. As well as Java-fx of Java, PyQt5 provides easier ways to develop an interactive desktop application.
+Definition: Is a cross-platform GUI toolkit, a set of Python bindings for Qt v5. As well as Java-fx of Java, PyQt5 provides easier ways to develop an interactive desktop application. [1]
 
 * **Year of release:** 1998
 * **Developer:** Riverbank Computing
@@ -93,6 +93,11 @@ Definition: Is a cross-platform GUI toolkit, a set of Python bindings for Qt v5.
  * Step 3: Use the command line: python <file_name>.py
 
 <img width="1280" alt="terminal use" src="https://github.com/CS2613-WI24-FR01B/exploration-activity-1-HyPhuPham/assets/114414645/6afd0109-e9ab-4499-aa8b-fc726679c6f5">
+
+# Reference
+[1] https://www.geeksforgeeks.org/python-introduction-to-pyqt5/
+
+## Application Sample Output
 
 # Apperance
 
