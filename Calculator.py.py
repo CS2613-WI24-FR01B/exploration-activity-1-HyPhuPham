@@ -6,7 +6,7 @@ import math
 # - The calculator is developed by PyQt5 UI with functions similar to the Java-fx
 # - Author: Phu Hy Pham - ID: 3741975
 
-class MyWindow(QMainWindow):
+class Calculator(QMainWindow):
     def __init__(self):
         super().__init__()
 
@@ -289,6 +289,6 @@ class MyWindow(QMainWindow):
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
-    window = MyWindow()
+    window = Calculator()
     window.show()
     sys.exit(app.exec_())
