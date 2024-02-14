@@ -97,13 +97,13 @@ Definition: Is a cross-platform GUI toolkit, a set of Python bindings for Qt v5.
 # Reference
 [1] https://www.geeksforgeeks.org/python-introduction-to-pyqt5/
 
-## Application Sample Output
+# Application Sample Output
 
-# Apperance
+## Apperance
 
 <img width="182" alt="Interface" src="https://github.com/CS2613-WI24-FR01B/exploration-activity-1-HyPhuPham/assets/114414645/e12b6e17-59ec-4900-bf28-ac84ac89a490">
 
-# Fucntions
+## Fucntions
 
 - An input box to display the chosen character and the result
 
