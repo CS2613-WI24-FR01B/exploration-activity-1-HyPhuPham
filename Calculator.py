@@ -2,7 +2,7 @@ import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton, QLabel, QLineEdit, QDesktopWidget
 import math
 
-# - This program represent a calculator as an user interface where they can do basic arithmethic operations (+, -, x, /, and pi)
+# - This program represents a calculator as a user interface where they can do basic arithmetic operations (+, -, x, /, and pi)
 # - The calculator is developed by PyQt5 UI with functions similar to the Java-fx
 # - Author: Phu Hy Pham - ID: 3741975
 
@@ -20,11 +20,11 @@ class Calculator(QMainWindow):
         self.label = QLabel("STANDARD",self)
         self.label.setGeometry(135, 0, 160, 30)
 
-    # This is called input box where user can type their arithmetics
+    # This is called an input box where user can type their arithmetics
         self.input_field = QLineEdit(self)
         self.input_field.setGeometry(20, 50, 320, 80)
 
-    # Button row 1: including
+    # Button row 1: Including
         # Delete all button
         # Delete each character button
         self.button = QPushButton("AC", self)
@@ -35,7 +35,7 @@ class Calculator(QMainWindow):
         self.button.setGeometry(180, 140, 160, 40)
         self.button.clicked.connect(self.process_delete)
 
-    # Button row 2: including
+    # Button row 2: Including
         # - number 7 button
         # - number 8 button
         # - number 9 button
@@ -57,7 +57,7 @@ class Calculator(QMainWindow):
         self.button.setGeometry(260, 180, 80, 80)
         self.button.clicked.connect(self.process_Add)
 
-    # Button row 3: icluding
+    # Button row 3: including
         # - number 4 button
         # - number 5 button
         # - number 6 button
